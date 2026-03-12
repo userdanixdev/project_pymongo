@@ -4,6 +4,7 @@
 ![CRUD](https://img.shields.io/badge/CRUD-MongoDB-success)
 ![MongoDB Atlas](https://img.shields.io/badge/MongoDB-Atlas-green?logo=mongodb)
 ![Postman](https://img.shields.io/badge/Postman-Utilitário-orange?logo=postman)
+![License](https://img.shields.io/badge/license-MIT-blue)
 
 
 
