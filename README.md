@@ -318,7 +318,7 @@ Fluxo da solução:
   MongoDB Atlas Cloud
 ```
 
-![docs\arquitetura_project_mongo_2.png](docs\arquitetura_project_mongo_2.png)
+![docs/arquitetura_project_mongo_2.png](docs/arquitetura_project_mongo_2.png)
 
 
 ## 👤 Autor
