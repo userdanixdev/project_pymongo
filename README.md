@@ -2,9 +2,9 @@
 ![CRUD](https://img.shields.io/badge/CRUD-MongoDB-success)
 ![MongoDB Atlas](https://img.shields.io/badge/MongoDB-Atlas-green?logo=mongodb)
 
-# Documentação Técnica — API CRUD com Flask + MongoDB Atlas
+# Documentação Técnica - API CRUD com Flask + MongoDB Atlas
 
-## 1. Visão Geral
+## Visão Geral
 
 Este projeto consiste no desenvolvimento de uma API REST utilizando **Python**, **Flask** e **MongoDB Atlas**, com o objetivo de realizar operações de **CRUD** sobre coleções de dados, permitindo criar, consultar, atualizar e remover registros de forma estruturada.
 
@@ -19,7 +19,7 @@ Além da implementação funcional das rotas, o projeto também inclui uma cole�
 
 ---
 
-## 2. Objetivo do Projeto
+## Objetivo do Projeto
 
 O principal objetivo deste projeto é demonstrar, na prática, a construção de uma API backend conectada a um banco de dados em nuvem, permitindo:
 
@@ -32,7 +32,7 @@ O principal objetivo deste projeto é demonstrar, na prática, a construção de
 
 ---
 
-## 3. Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 * **Python** — linguagem principal do projeto;
 * **Flask** — microframework utilizado para construção da API;
@@ -43,7 +43,7 @@ O principal objetivo deste projeto é demonstrar, na prática, a construção de
 
 ---
 
-## 4. Arquitetura do Projeto
+## Arquitetura do Projeto
 
 A aplicação foi organizada em uma estrutura modular, separando responsabilidades entre inicialização da aplicação, conexão com banco de dados, rotas e testes.
 
@@ -59,7 +59,7 @@ project_api/
 │    │      ├── carros.py
 │    │      └── posts.py
 |    |── postman/
-│           └── api_collection.json
+│           └── carros.postman_collection.json
 │
 ├── tests/
 │
@@ -87,7 +87,7 @@ A API segue o padrão REST, utilizando os métodos HTTP principais:
 * **PUT** → atualizar registros existentes;
 * **DELETE** → remover registros.
 
-Cada coleção possui endpoints específicos para manipulação de seus documentos.
+> Cada coleção possui endpoints específicos para manipulação de seus documentos.
 
 ---
 
@@ -97,9 +97,7 @@ O banco utilizado é o **MongoDB Atlas**, acessado remotamente por meio de uma s
 
 O MongoDB foi escolhido por sua flexibilidade na manipulação de documentos JSON-like, o que facilita a modelagem inicial e o aprendizado de operações CRUD em aplicações backend.
 
-### Coleções utilizadas
-
-
+### Coleções utilizadas:
 #### Carros
 
 Exemplo lógico de documento:
@@ -112,7 +110,7 @@ Exemplo lógico de documento:
 }
 ```
 
-#### Posts
+#### Posts:
 
 Exemplo lógico de documento:
 
