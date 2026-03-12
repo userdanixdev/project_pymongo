@@ -1,0 +1,140 @@
+{
+  "info": {
+    "_postman_id": "3b9b5ebc-ad41-4bb7-97df-6c19a49ef6cd",
+    "name": "carros",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "53088925",
+    "_collection_link": "https://go.postman.co/collection/53088925-3b9b5ebc-ad41-4bb7-97df-6c19a49ef6cd?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "POST",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n \"marca\": \"Toyota\",\r\n \"modelo\": \"Corolla T-CROSS\",\r\n \"ano\": 2025\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://127.0.0.1:5000/carros",
+          "protocol": "http",
+          "host": [
+            "127",
+            "0",
+            "0",
+            "1"
+          ],
+          "port": "5000",
+          "path": [
+            "carros"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "GET_mongo_bd",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "method": "GET",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://127.0.0.1:5000/posts",
+          "protocol": "http",
+          "host": [
+            "127",
+            "0",
+            "0",
+            "1"
+          ],
+          "port": "5000",
+          "path": [
+            "posts"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "PUT_MONBO_DB",
+      "request": {
+        "method": "PUT",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n \"author\": \"Daniel\",\r\n \"text\": \"Atualizando post com Flask API\",\r\n \"tags\": [\"mongodb\",\"flask\",\"api\"]\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://127.0.0.1:5000/posts/69ac84c717edad6eb092e7c5",
+          "protocol": "http",
+          "host": [
+            "127",
+            "0",
+            "0",
+            "1"
+          ],
+          "port": "5000",
+          "path": [
+            "posts",
+            "69ac84c717edad6eb092e7c5"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "DELETE",
+      "request": {
+        "method": "DELETE",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://127.0.0.1:5000/posts/69ac9b3a8e3f78899a4b90d7",
+          "protocol": "http",
+          "host": [
+            "127",
+            "0",
+            "0",
+            "1"
+          ],
+          "port": "5000",
+          "path": [
+            "posts",
+            "69ac9b3a8e3f78899a4b90d7"
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}
