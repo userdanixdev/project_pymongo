@@ -234,7 +234,7 @@ Os testes dos endpoints foram realizados com o **Postman**, permitindo validar:
 A coleção exportada foi salva dentro do projeto no diretório:
 
 ```text
-/postman/api_collection.json
+/postman/carros.postman_collection.json
 ```
 
 Isso permite compartilhar os testes junto com o código-fonte e reutilizar as requisições em outros ambientes.
