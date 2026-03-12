@@ -2,10 +2,10 @@
 ![Flask](https://img.shields.io/badge/Flask-REST%20API-black?logo=flask)
 ![REST API](https://img.shields.io/badge/API-REST-blue)
 ![CRUD](https://img.shields.io/badge/CRUD-MongoDB-success)
-![PyMongo](https://img.shields.io/badge/PyMongo-Driver-4.x-green)
 ![MongoDB Atlas](https://img.shields.io/badge/MongoDB-Atlas-green?logo=mongodb)
 ![Postman](https://img.shields.io/badge/Postman-API%20Client-orange?logo=postman)
-![Status](https://img.shields.io/badge/status-em%20desenvolvimento-yellow)
+
+
 
 # Documentação Técnica - API CRUD com Flask + MongoDB Atlas
 
