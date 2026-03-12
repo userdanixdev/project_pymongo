@@ -3,7 +3,7 @@
 ![REST API](https://img.shields.io/badge/API-REST-blue)
 ![CRUD](https://img.shields.io/badge/CRUD-MongoDB-success)
 ![MongoDB Atlas](https://img.shields.io/badge/MongoDB-Atlas-green?logo=mongodb)
-![Postman](https://img.shields.io/badge/Postman-API%20Client-orange?logo=postman)
+![Postman](https://img.shields.io/badge/Postman-Utilitário-orange?logo=postman)
 
 
 
