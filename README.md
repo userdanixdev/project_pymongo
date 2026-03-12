@@ -318,14 +318,12 @@ Fluxo da solução:
   MongoDB Atlas Cloud
 ```
 
-![Descrição da imagem](C:\Users\fdani\project_pymongo\docs\arquitetura_project_mongo_2.png)
+![Diagrama do projeto:](docs\arquitetura_project_mongo_2.png)
 
 
 ## 👤 Autor
 
 **Daniel Martins França**  
-
-*Projeto desenvolvido com foco em **engenharia de dados**, aplicando boas práticas de ETL, versionamento de dados e arquitetura em camadas*
 
 ---
 
@@ -333,5 +331,5 @@ Fluxo da solução:
 
 - 📧 Email: [f.daniel.m@gmail.com](mailto:f.daniel.m@gmail.com)  
 - 💼 LinkedIn: [www.linkedin.com/in/danixdev](https://www.linkedin.com/in/danixdev)  
-- 📁 Trabalhos : [www,danixdev.blogspot.com/2026/02/etl-ipca-e-commodity-boi-gordo.html](https://danixdev.blogspot.com/2026/02/etl-ipca-e-commodity-boi-gordo.html)
+
 
