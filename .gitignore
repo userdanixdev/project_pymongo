@@ -21,3 +21,4 @@ __pycache__/
 # arquivos sensíveis
 .env
 .env
+CODIGOS_senhas.txt
